@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "description": "示例宏：打开记事本并输入文本",
+  "events": [
+    {"type": "key_press", "time": 0.1, "key": "win"},
+    {"type": "key_release", "time": 0.2, "key": "win"},
+    {"type": "key_press", "time": 0.5, "key": "r"},
+    {"type": "key_release", "time": 0.6, "key": "r"},
+    {"type": "key_press", "time": 1.0, "key": "n"},
+    {"type": "key_release", "time": 1.1, "key": "n"},
+    {"type": "key_press", "time": 1.2, "key": "o"},
+    {"type": "key_release", "time": 1.3, "key": "o"},
+    {"type": "key_press", "time": 1.4, "key": "t"},
+    {"type": "key_release", "time": 1.5, "key": "t"},
+    {"type": "key_press", "time": 1.6, "key": "e"},
+    {"type": "key_release", "time": 1.7, "key": "e"},
+    {"type": "key_press", "time": 1.8, "key": "p"},
+    {"type": "key_release", "time": 1.9, "key": "p"},
+    {"type": "key_press", "time": 2.0, "key": "a"},
+    {"type": "key_release", "time": 2.1, "key": "a"},
+    {"type": "key_press", "time": 2.2, "key": "d"},
+    {"type": "key_release", "time": 2.3, "key": "d"},
+    {"type": "key_press", "time": 2.5, "key": "enter"},
+    {"type": "key_release", "time": 2.6, "key": "enter"},
+    {"type": "mouse_move", "time": 3.0, "x": 500, "y": 400},
+    {"type": "mouse_click", "time": 3.2, "x": 500, "y": 400, "button": "left", "pressed": true},
+    {"type": "mouse_click", "time": 3.3, "x": 500, "y": 400, "button": "left", "pressed": false}
+  ]
+}
